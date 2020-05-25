@@ -19,6 +19,8 @@ class MyTestCase(unittest.TestCase):
         })
     def test_life_number(self):
         self.assertEqual(4,Astrologer.get_life_number(1995,12,13))
+        self.assertEqual(3,Astrologer.get_life_number(1,1,1))
+        self.assertEqual(8,Astrologer.get_life_number(2000,12,30))
         self.assertEqual(9,Astrologer.get_life_number(1993,8,15))
         self.assertEqual(1,Astrologer.get_life_number(1993,8,16))
         self.assertEqual(6,Astrologer.get_life_number(1993,8,30))
