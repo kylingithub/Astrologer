@@ -24,9 +24,17 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(6,Astrologer.get_life_number(1993,8,30))
     
     def test_constellation(self):
+        self.assertEqual("魔羯座",Astrologer.get_constellation(1,1))
         self.assertEqual("獅子座",Astrologer.get_constellation(8,16))
         self.assertEqual("處女座",Astrologer.get_constellation(8,30))
-        self.assertEqual("天蠍座",Astrologer.get_constellation(10,23))
+        self.assertEqual("天蠍座",Astrologer.get_constellation(11,1))
+        self.assertEqual("牡羊座",Astrologer.get_constellation(3,21))
+        self.assertEqual("金牛座",Astrologer.get_constellation(4,30))
+        self.assertEqual("巨蟹座",Astrologer.get_constellation(7,9))
+        self.assertEqual("天秤座",Astrologer.get_constellation(9,28))
+        self.assertEqual("射手座",Astrologer.get_constellation(11,23))
+        self.assertEqual("魔羯座",Astrologer.get_constellation(12,24))
+        self.assertEqual("水瓶座",Astrologer.get_constellation(2,5))
         self.assertEqual("雙魚座",Astrologer.get_constellation(2,29))
 
 
