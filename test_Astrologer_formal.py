@@ -1,7 +1,7 @@
 import unittest
 from Astrologer import *
 
-class MyTestCase(unittest.TestCase):
+class FormalTestCase(unittest.TestCase):
 
     def test_get_each_number(self):
 
