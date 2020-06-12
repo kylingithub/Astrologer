@@ -5,10 +5,12 @@
 python >= 3.6
 
 ## 答題說明
-編寫Astrologer.py裡面的function，編寫後直接執行以下命令即可，若通過表示編寫正確。
-```shell
-python test_Astrologer.py 
-```
+1. 編寫Astrologer.py裡面的function，編寫後直接執行以下命令即可，若通過表示編寫正確。
+    ```shell
+    python test_Astrologer.py 
+    ```
+2. 接著要上傳github，並且點選 `Action`:arrow_forward: ，確認線上測試結果是否正確。
+ 
 
 ## 機器學習工作坊準備事項
 1. 編輯器: [VS Code](https://code.visualstudio.com/)
