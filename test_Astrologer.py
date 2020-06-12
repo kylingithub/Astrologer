@@ -1,5 +1,5 @@
 import unittest
-import Astrologer
+from Astrologer import *
 
 class MyTestCase(unittest.TestCase):
 
