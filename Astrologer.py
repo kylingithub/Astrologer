@@ -5,34 +5,8 @@
 核心概念:先畫靶再射箭，先設定好自己要的結果，再開始coding。
 """
 
-"""
-我們現在設計兩個function，一個幫我們計算生命靈數，一個幫我們查是什麼星座。
-"""
-def get_birthday_dict(year=1900, month=1, day=1)->dict:
-    """
-    會回傳一個dict，dict儲存生日中每個數字的數量。
-    ex 1995 12 13 -> 1有3個 2有1個 3有1個 5有1個 9有2個
-    這樣回傳
-    {
-        1:3,
-        2:1,
-        3:1,
-        5:1,
-        9:2
-    }
-    """
-    return {}
 
-def get_life_number(year=1900, month=1, day=1)->int:
-    """
-    會回傳一個生命靈數，生命靈數的計算方式是出生年月日的每一個數字的總和，不斷加總至個位數。
-    ex 1995 12 13 -> 1+9+9+5+1+2+1+3 = 31 -> 3+1 =4
-    這樣生命靈數就是4
-    """
-    return -1
-
-
-def get_constellation(month, day)->str:
+def get_constellation(month, day) -> str:
     """
     根據生日回傳正確的星座
     牡羊座	3月21日～4月20日
@@ -48,4 +22,29 @@ def get_constellation(month, day)->str:
     水瓶座	1月22日～2月19日
     雙魚座	2月20日～3月20日
     """
-    return "水瓶座"
+    
+    return "一個星座"
+
+
+def get_each_number(number: int) -> []:
+    """
+    輸入一個正整數，然後將每一位數分開。
+    ex get_each_number(1920) 
+    return [1,9,2,0]
+    """
+
+    result = [1,2,3]
+
+    return result
+
+
+def get_life_number(year=1900, month=1, day=1) -> int:
+    """
+    會回傳一個生命靈數，生命靈數的計算方式是出生年月日的每一個數字的總和，不斷加總至個位數。
+    ex 1995 12 13 -> 1+9+9+5+1+2+1+3 = 31 -> 3+1 =4
+    這樣生命靈數就是4
+    """
+    life_num = 10
+
+    return life_num
+
