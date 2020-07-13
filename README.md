@@ -14,8 +14,17 @@ python >= 3.6
 
 ## 機器學習工作坊準備事項
 1. 編輯器: [VS Code](https://code.visualstudio.com/)
-2. 環境設定
-請執行下列指令安裝套件
+
+### Win10 環境設定
+需要安裝的套件詳細記錄`requirement.txt`中，可直接執行下列指令安裝python套件
 ```shell
 python -m pip install -r requirement.txt
+```
+### Mac 環境設定
+1. 請先參考下方連結，安裝pygame
+https://www.pygame.org/wiki/GettingStarted#Mac%20installation
+
+2.安裝其餘套件
+```shell
+python -m pip install -r requirement-mac.txt
 ```
